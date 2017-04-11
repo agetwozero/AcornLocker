@@ -1,0 +1,27 @@
+{
+  "name": "AcornLocker",
+  "productName": "AcornLocker",
+  "description": "Putting away your passwords, like a squirrel does with it's acorns.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/agetwozero/acornlocker",
+  "author": {
+    "name": "AgeTwoZero",
+    "url": "https://github.com/agetwozero"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "electronVersion": "1.0.0",
+  "dependencies": {
+    "devtron": "^1",
+    "electron-debug": "^1",
+    "electron-is-dev": "^0.1",
+    "electron-window-state": "^3",
+    "lodash": "^4"
+  },
+  "config": {
+    "url": "index.html",
+    "update": {
+      "url": false
+    }
+  }
+}
