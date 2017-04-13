@@ -19,7 +19,7 @@
     "lodash": "^4"
   },
   "config": {
-    "url": "index.html",
+    "url": "assets/html/app.html",
     "update": {
       "url": false
     }
