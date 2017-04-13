@@ -10,6 +10,9 @@ const pjson = require('./package.json')
 const _ = require('lodash')
 const windowStateKeeper = require('electron-window-state')
 
+//user defined
+// const $ = require('jquery');
+
 // Use system log facility, should work on Windows too
 require('./lib/log')(pjson.productName || 'SkelEktron')
 
